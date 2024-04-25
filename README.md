@@ -1,2 +1,2 @@
-# js-hindi
+# js-hindi-
 learn javascript
