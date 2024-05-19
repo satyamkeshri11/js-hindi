@@ -36,3 +36,37 @@ console.log(typeof OutSideTemp); // object
 console.log(typeof scoreValue); //number
 console.log(typeof myfunction); //function
 console.log(typeof heros); //object
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// memory :- memory are two types 
+
+// 1. stack (primitive)
+// 2. heap (non-primitive)
+
+// 1.
+
+let myname = "satyam";
+let anothername = myname;
+
+anothername = "sejal";
+console.log(myname);
+console.log(anothername);
+
+// output = satyam, sejal
+
+// 2.
+
+let userone = {
+    emali : "user@google.com",
+    upi : "user@ybl"
+}
+let usertwo = userone;
+
+usertwo.emali = "satyam@google.com"
+
+console.log(userone);
+console.log(usertwo);
+
+// output = satyam@google.com, satyam@google.com 
